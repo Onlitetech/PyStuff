@@ -5,4 +5,3 @@ def rot13(str):
 	trantab = maketrans(intab, outtab)
 	transs=str.translate(trantab);
 	return transs
-print rot13("sup")
