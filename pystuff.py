@@ -55,3 +55,9 @@ def palin(str):
 		return "Palindrome"
 	else:
 		return "Not a palindrome"
+def prime(n):
+	int(n)
+	if n % 2 != 0:
+		print "Odd"
+	else:
+		print "Even"
