@@ -55,9 +55,26 @@ def palin(str):
 		return "Palindrome"
 	else:
 		return "Not a palindrome"
-def prime(n):
+def ode(n):
 	int(n)
 	if n % 2 != 0:
 		print "Odd"
 	else:
 		print "Even"
+def divis(num, divby):
+	int(num)
+	int(divby)
+	if num % divby == 0:
+		return num + " Is divisible by " + divby
+	elif num % divby != 0:
+		return num + " Is not divisible by " + divby
+def fact(max, divby)
+	int(max)
+	int(divby)
+	nums = range(max)
+	nums +=1
+	factors=[]
+	for x in nums:
+		if x % divby == 0:
+			factors.append(x)
+	return factors
