@@ -68,7 +68,7 @@ def divis(num, divby):
 		return num + " Is divisible by " + divby
 	elif num % divby != 0:
 		return num + " Is not divisible by " + divby
-def fact(max, divby)
+def fact(max, divby):
 	int(max)
 	int(divby)
 	nums = range(max)
